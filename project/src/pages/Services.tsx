@@ -10,7 +10,7 @@ export default function Services() {
 
         <div className="max-w-3xl mx-auto text-gray-600 mb-16">
           <p className="mb-4">
-            At LogiTrack, we understand that every business has unique logistics requirements. Our comprehensive suite of services is designed to meet these diverse needs while ensuring efficiency, reliability, and cost-effectiveness. We combine industry expertise with cutting-edge technology to deliver solutions that drive your business forward.
+            At Ambati Logistics, we understand that every business has unique logistics requirements. Our comprehensive suite of services is designed to meet these diverse needs while ensuring efficiency, reliability, and cost-effectiveness. We combine industry expertise with cutting-edge technology to deliver solutions that drive your business forward.
           </p>
           <p>
             Our integrated approach ensures seamless coordination across all aspects of your supply chain, from warehousing to last-mile delivery. We're committed to providing you with the highest level of service while maintaining complete transparency throughout the process.
@@ -25,9 +25,9 @@ export default function Services() {
             </div>
             <ul className="space-y-2 text-gray-600">
               <li>• Ground transportation and freight services</li>
-              <li>• Air freight solutions</li>
-              <li>• Ocean freight and maritime logistics</li>
-              <li>• Intermodal transportation</li>
+              <li>• Intra-city, Short-Haul, Long-Haul</li>
+              <li>• GPS-tracked vehicles</li>
+              <li>• Transparent pricing models</li>
               <li>• Express delivery services</li>
             </ul>
           </div>
@@ -35,12 +35,12 @@ export default function Services() {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <Package className="h-8 w-8 text-blue-600 mr-3" />
-              <h2 className="text-2xl font-semibold">Warehousing Solutions</h2>
+              <h2 className="text-2xl font-semibold">Courier & Small Parcel</h2>
             </div>
             <ul className="space-y-2 text-gray-600">
-              <li>• Inventory management</li>
-              <li>• Order fulfillment</li>
-              <li>• Cross-docking services</li>
+              <li>• Same-day and next-day delivery options</li>
+              <li>• Proof-of-delivery and live tracking</li>
+              <li>• Ideal for e-commerce, healthcare, and D2C</li>
               <li>• Climate-controlled storage</li>
               <li>• Security monitoring</li>
             </ul>
