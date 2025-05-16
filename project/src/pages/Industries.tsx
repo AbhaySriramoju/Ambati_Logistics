@@ -9,6 +9,10 @@ export default function Industries() {
         "Raw material transportation",
         "Finished goods distribution",
         "Inventory management systems",
+        "Fast replenishment cycles",
+        "Raw material movement to finished goods dispatch",
+        "Just-in-time delivery and factory-to-distributor logistics",
+        
       ],
     },
     {
@@ -18,6 +22,10 @@ export default function Industries() {
         "Last-mile delivery",
         "Returns management",
         "Inventory optimization",
+        "Temperature-controlled transport",
+        "Fast shipping, returns, and inventory syncing",
+        "Integrated with major marketplaces and CRMs"
+        
       ],
     },
     {
@@ -27,6 +35,8 @@ export default function Industries() {
         "Regulatory compliance",
         "Medical device logistics",
         "Healthcare supply chain solutions",
+        "Secure, compliant delivery with chain-of-custody tracking",
+        "Cold chain logistics available"
       ],
     },
     {
@@ -36,23 +46,27 @@ export default function Industries() {
         "Secure transportation",
         "Component logistics",
         "Reverse logistics",
+        "Supply chain efficiency for components and assemblies",
+        "Reverse logistics and warranty returns",
+        "Lifestyle goods, electronics, heavy equipment, and more"
+        
       ],
     },
   ];
 
   const testimonials = [
     {
-      name: "John Smith",
+      name: "Anirudh",
       company: "Tech Solutions Inc.",
       content: "LogiTrack has transformed our supply chain efficiency. Their innovative solutions and reliable service have been instrumental in our growth.",
     },
     {
-      name: "Sarah Johnson",
+      name: "Chaitanya",
       company: "Global Manufacturing Co.",
       content: "We've seen a 30% improvement in delivery times since partnering with LogiTrack. Their attention to detail and professional service is outstanding.",
     },
     {
-      name: "Michael Chen",
+      name: "Aishwarya",
       company: "E-commerce Express",
       content: "The level of transparency and reliability we get with LogiTrack is unmatched. They're not just a service provider, but a true business partner.",
     },
