@@ -6,7 +6,10 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6">Who We Are</h2>
           <p className="text-gray-600 leading-relaxed">
-            LogiTrack is a leading logistics solutions provider with over two decades of experience in the industry. We specialize in delivering comprehensive logistics services that help businesses optimize their supply chain operations and achieve their goals. Our team of experts combines industry knowledge with cutting-edge technology to provide innovative solutions that drive efficiency and growth.
+            Ambati Logistics Pvt Ltd is a next-generation, tech-enabled logistics company founded to address the challenges of fragmented supply chains, inefficient tracking, and the lack of tailored logistics in India.
+          </p>
+          <p className="text-gray-600 leading-relaxed">
+            Headquartered in India, we integrate 3PL, 4PL, and 5PL logistics under one platform to serve businesses of all sizes and types with seamless operations — from local courier deliveries to global freight forwarding.
           </p>
         </section>
 
@@ -14,7 +17,7 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <p className="text-gray-600 leading-relaxed">
-            Our mission is to revolutionize the logistics industry by providing reliable, efficient, and sustainable solutions that empower businesses to thrive in the global marketplace. We are committed to delivering excellence in every aspect of our service while maintaining the highest standards of integrity and customer satisfaction.
+            To be India’s most reliable and intelligent logistics partner by offering integrated, scalable, and sustainable logistics infrastructure supported by real-time tracking, AI, and automation.
           </p>
         </section>
 
@@ -22,7 +25,7 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6">Our Vision</h2>
           <p className="text-gray-600 leading-relaxed">
-            We envision being the most trusted and innovative logistics partner globally, setting new standards in the industry through technological advancement, sustainable practices, and exceptional service delivery. Our goal is to create lasting value for our clients while contributing to a more connected and efficient world.
+            To simplify logistics in India through innovation, technology, and customer-first solutions. Our goal is to create lasting value for our clients while contributing to a more connected and efficient world.
           </p>
         </section>
 
@@ -33,10 +36,10 @@ export default function About() {
             In the dynamic world of logistics, challenges are inevitable. We approach each challenge as an opportunity to demonstrate our expertise and commitment to excellence. Our methodology focuses on:
           </p>
           <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-            <li>Proactive problem identification and resolution</li>
-            <li>Data-driven decision making</li>
-            <li>Continuous improvement and innovation</li>
-            <li>Transparent communication with stakeholders</li>
+            <li>Infrastructure Gaps: Poor road networks, underdeveloped ports, and congestion</li>
+            <li>Regulatory Confusion: Complex and evolving compliance norms</li>
+            <li>Supply Chain Fragmentation: Lack of integrated visibility</li>
+            <li>Driver Shortages: Skill and availability gaps across the transport sector</li>
             <li>Sustainable and efficient solutions</li>
           </ul>
         </section>

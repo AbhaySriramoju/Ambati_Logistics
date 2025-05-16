@@ -1,5 +1,5 @@
-import { ArrowRight, Truck, Package, Globe } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { ArrowRight, Truck, Package, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -8,7 +8,8 @@ export default function Home() {
       <div
         className="bg-cover bg-center h-[500px] relative"
         style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
+          backgroundImage:
+            'url("https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80")',
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -18,7 +19,7 @@ export default function Home() {
               Global Logistics Solutions for Your Business
             </h1>
             <p className="text-xl mb-8">
-              Reliable, efficient, and secure logistics services tailored to meet your needs.
+              Ambati Logistics offers a centralized logistics platform combining courier services, freight forwarding, warehousing, packaging, and SCM consulting. With real-time AI-powered tracking and complete supply chain visibility, we help you take control of your logistics like never before.
             </p>
             <Link
               to="/contact"
@@ -34,7 +35,9 @@ export default function Home() {
       {/* About Our Mission */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">About Our Mission</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            About Our Mission
+          </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -42,7 +45,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Reliable Delivery</h3>
               <p className="text-gray-600">
-                We ensure your shipments reach their destination safely and on time.
+                We ensure your shipments reach their destination safely and on
+                time.
               </p>
             </div>
             <div className="text-center">
@@ -60,7 +64,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2">Global Network</h3>
               <p className="text-gray-600">
-                Our extensive network ensures worldwide coverage for your logistics needs.
+                Our extensive network ensures worldwide coverage for your
+                logistics needs.
               </p>
             </div>
           </div>
@@ -70,15 +75,17 @@ export default function Home() {
       {/* Industries We Serve */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Industries We Serve</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            Industries We Serve
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              'Manufacturing',
-              'Retail',
-              'E-commerce',
-              'Healthcare',
-              'Technology',
-              'Automotive',
+              "Manufacturing & FMCG",
+              "Retail & Lifestyle Products",
+              "E-commerce",
+              "Healthcare",
+              "Technology",
+              "Automotive",
             ].map((industry) => (
               <div
                 key={industry}
@@ -86,7 +93,8 @@ export default function Home() {
               >
                 <h3 className="text-xl font-semibold mb-2">{industry}</h3>
                 <p className="text-gray-600">
-                  Specialized logistics solutions tailored for the {industry.toLowerCase()} sector.
+                  Specialized logistics solutions tailored for the{" "}
+                  {industry.toLowerCase()} sector.
                 </p>
               </div>
             ))}
