@@ -22,20 +22,21 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Address</h3>
                     <p className="text-gray-600">
-                      123 Logistics Ave
+                      3-9-90, Sharadha Nagar
                       <br />
-                      Business District
+                      Ramanthapur
                       <br />
-                      City, State 12345
+                      Hyderabad - 500013
                     </p>
                   </div>
                 </div>
-
                 <div className="flex items-start">
                   <Phone className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">
+                      +91-9177656116 <br /> +91-8297333338
+                    </p>
                   </div>
                 </div>
 
@@ -43,7 +44,7 @@ export default function Contact() {
                   <Mail className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">info@logitrack.com</p>
+                    <p className="text-gray-600">info@AMBATI LOGISTICS.com</p>
                   </div>
                 </div>
               </div>

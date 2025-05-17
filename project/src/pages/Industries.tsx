@@ -1,4 +1,4 @@
-import { Star } from 'lucide-react';
+import { Star } from "lucide-react";
 
 export default function Industries() {
   const industries = [
@@ -12,7 +12,6 @@ export default function Industries() {
         "Fast replenishment cycles",
         "Raw material movement to finished goods dispatch",
         "Just-in-time delivery and factory-to-distributor logistics",
-        
       ],
     },
     {
@@ -24,8 +23,7 @@ export default function Industries() {
         "Inventory optimization",
         "Temperature-controlled transport",
         "Fast shipping, returns, and inventory syncing",
-        "Integrated with major marketplaces and CRMs"
-        
+        "Integrated with major marketplaces and CRMs",
       ],
     },
     {
@@ -36,7 +34,7 @@ export default function Industries() {
         "Medical device logistics",
         "Healthcare supply chain solutions",
         "Secure, compliant delivery with chain-of-custody tracking",
-        "Cold chain logistics available"
+        "Cold chain logistics available",
       ],
     },
     {
@@ -48,8 +46,7 @@ export default function Industries() {
         "Reverse logistics",
         "Supply chain efficiency for components and assemblies",
         "Reverse logistics and warranty returns",
-        "Lifestyle goods, electronics, heavy equipment, and more"
-        
+        "Lifestyle goods, electronics, heavy equipment, and more",
       ],
     },
   ];
@@ -58,28 +55,36 @@ export default function Industries() {
     {
       name: "Anirudh",
       company: "Tech Solutions Inc.",
-      content: "LogiTrack has transformed our supply chain efficiency. Their innovative solutions and reliable service have been instrumental in our growth.",
+      content:
+        "AMBATI LOGISTICS has transformed our supply chain efficiency. Their innovative solutions and reliable service have been instrumental in our growth.",
     },
     {
       name: "Chaitanya",
       company: "Global Manufacturing Co.",
-      content: "We've seen a 30% improvement in delivery times since partnering with LogiTrack. Their attention to detail and professional service is outstanding.",
+      content:
+        "We've seen a 30% improvement in delivery times since partnering with AMBATI LOGISTICS. Their attention to detail and professional service is outstanding.",
     },
     {
       name: "Aishwarya",
       company: "E-commerce Express",
-      content: "The level of transparency and reliability we get with LogiTrack is unmatched. They're not just a service provider, but a true business partner.",
+      content:
+        "The level of transparency and reliability we get with AMBATI LOGISTICS is unmatched. They're not just a service provider, but a true business partner.",
     },
   ];
 
   return (
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Industries We Serve</h1>
+        <h1 className="text-4xl font-bold text-center mb-12">
+          Industries We Serve
+        </h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {industries.map((industry) => (
-            <div key={industry.title} className="bg-white p-8 rounded-lg shadow-md">
+            <div
+              key={industry.title}
+              className="bg-white p-8 rounded-lg shadow-md"
+            >
               <h2 className="text-2xl font-semibold mb-4">{industry.title}</h2>
               <ul className="space-y-2">
                 {industry.points.map((point) => (
@@ -95,10 +100,15 @@ export default function Industries() {
 
         {/* Testimonials Section */}
         <section className="bg-gray-50 rounded-xl p-8 mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">
+            What Our Clients Say
+          </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial) => (
-              <div key={testimonial.name} className="bg-white p-6 rounded-lg shadow-md">
+              <div
+                key={testimonial.name}
+                className="bg-white p-6 rounded-lg shadow-md"
+              >
                 <div className="flex items-center mb-4">
                   {[...Array(5)].map((_, i) => (
                     <Star

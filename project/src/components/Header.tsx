@@ -19,8 +19,14 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Truck className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-gray-800">LogiTrack</span>
+            <img
+              src="/src/assets/Ambati_Logistics_Logo.png"
+              alt="Ambati Logistics Logo"
+              className="h-8 w-8"
+            />
+            <span className="text-xl font-bold text-gray-800">
+              AMBATI LOGISTICS
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -84,7 +90,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-lg shadow-md transition"
-              >
+            >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
                 alt="WhatsApp"
