@@ -7,10 +7,14 @@ import Services from './pages/Services';
 import Industries from './pages/Industries';
 import Track from './pages/Track';
 import Contact from './pages/Contact';
+import ScrollToTop from "./components/ScrollToTop"
+
+
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        <ScrollToTop />
         <Header />
         <main className="flex-grow">
           <Routes>
