@@ -10,7 +10,22 @@ export default function Contact() {
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12">Contact Us</h1>
+        <style>
+        {`
+          .gradient-text {
+            background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 59.69%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+          }
+        `}
+      </style>
+      <div className="container mx-auto px-4">
+        {/* Main Heading */}
+        <h1 className="text-5xl font-extrabold text-center mb-16 gradient-text">
+          Contact
+        </h1>
+        </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}

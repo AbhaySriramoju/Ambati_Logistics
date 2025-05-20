@@ -1,7 +1,22 @@
 export default function About() {
   return (
     <div className="min-h-screen py-16">
+       {/* Gradient CSS injected here */}
+       <style>
+        {`
+          .gradient-text {
+            background: linear-gradient(120deg, #1C99FE 20.69%, #7644FF 50.19%, #FD4766 59.69%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+          }
+        `}
+      </style>
       <div className="container mx-auto px-4">
+        {/* Main Heading */}
+        <h1 className="text-5xl font-extrabold text-center mb-16 gradient-text">
+          About us
+        </h1>
         {/* Who We Are */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-6">Who We Are</h2>
