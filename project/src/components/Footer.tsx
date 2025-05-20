@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
             <img
-              src="/public/Ambati_Logistics_Logo.png"
+              src="/favicon.png"
               alt="Ambati Logistics Logo"
               className="h-8 w-8"
             />              <span className="text-xl font-bold">AMBATI LOGISTICS</span>
@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span className="text-gray-400">info@AMBATI LOGISTICS.com</span>
+                <span className="text-gray-400">info@ambatilogistics.com</span>
               </li>
             </ul>
           </div>

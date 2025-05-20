@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/public/Ambati_Logistics_Logo.png"
+              src="/favicon.png"
               alt="Ambati Logistics Logo"
               className="h-8 w-8"
             />
