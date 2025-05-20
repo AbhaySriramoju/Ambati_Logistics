@@ -7,8 +7,6 @@ import Services from './pages/Services';
 import Industries from './pages/Industries';
 import Track from './pages/Track';
 import Contact from './pages/Contact';
-import Blog from './pages/Blog';
-
 function App() {
   return (
     <Router>
@@ -22,7 +20,6 @@ function App() {
             <Route path="/industries" element={<Industries />} />
             <Route path="/track" element={<Track />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
         <Footer />
